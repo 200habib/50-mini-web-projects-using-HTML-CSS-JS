@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styleori.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <div class="container">
+    <div>
+    <div class="header"> <h1><span id="title">calc</span></h1> 
+      <button class="rotate" onclick="rotate()"></button>
+      <div class="headerButton">
+        <button id="header1" class="h un " onclick="header1()"></button>
+        <button id="header2" class="h no due" onclick="header2()"></button>
+        <button id="header3" class="h no tre" onclick="header3()"></button>
+    </div>
+    
+    </div>
+    <input type="text" id="display">
+    </div>
+    <div class="buttt">
+      
+      
+      <button id="inter-buttone-" onclick="inputNumber('7')">7</button>
+      <button id="inter-buttone-" onclick="inputNumber('8')">8</button>
+      <button id="inter-buttone-" onclick="inputNumber('9')">9</button>
+      <button id="inter-buttone-" onclick="inputNumber('9')">DEL</button>
+      <br>
+      
+      <button onclick="inputNumber('4')">4</button>
+      <button onclick="inputNumber('5')">5</button>
+      <button onclick="inputNumber('6')">6</button>
+      <button onclick="performOperation('+')">+</button><br>
+      
+      <button onclick="inputNumber('1')">1</button>
+      <button onclick="inputNumber('2')">2</button>
+      <button onclick="inputNumber('3')">3</button>
+      <button onclick="performOperation('-')">-</button><br>
+      
+      <button onclick="inputDecimal()">.</button>
+      <button onclick="inputNumber('0')">0</button>
+      <button onclick="performOperation('/')">÷</button>
+      <button onclick="performOperation('*')">x</button>
+      <br>
+      <button class="reset"  onclick="resetCalculator('AC')">RESET</button>
+      <button class="uguale"  onclick="calculateResult()">=</button>
+    </div>
+    
+
+  </div>
+
+
+  <div class="container2"><button class="rotate" onclick="rotatePhone()"></button>
+    <input type="text" id="displayy">
+  
+  <div class="conteiner_button_2">
+    
+    <div>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">mc</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">m+</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">m-</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">mr</button>
+    <button class="reset_2 grigio"  onclick="resetCalculator('AC')">C</button>
+    <button class="grigio" id="inter-buttone-2" onclick="performOperation('+/-')">+/-</button>
+    <button class="grigio" id="inter-buttone-2" onclick="performOperation('%')">%</button>
+    <button class="giallo" onclick="performOperation('/')">/</button>
+     </div>
+    <!-- <button id="inter-buttone-2" onclick="inputNumber('9')">DEL</button> -->
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">x</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">y</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">e</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">10*</button>
+    <button id="inter-buttone-2" onclick="inputNumbe('7')">7</button>
+    <button id="inter-buttone-2" onclick="inputNumber('8')">8</button>
+    <button id="inter-buttone-2" onclick="inputNumber('9')">9</button>
+    <button class="giallo" onclick="performOperation('*')">x</button>
+    <!-- <button id="inter-buttone-2" onclick="inputNumber('9')">DEL</button> -->
+    <br>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">µ</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">In</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">log</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">o</button>
+    <button onclick="inputNumber('4')">4</button>
+    <button onclick="inputNumber('5')">5</button>
+    <button onclick="inputNumber('6')">6</button>
+    <button class="giallo" onclick="performOperation('+')">+</button><br>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">x!</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">cos</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">sen</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">EE</button>
+    <button onclick="inputNumber('1')">1</button>
+    <button onclick="inputNumber('2')">2</button>
+    <button onclick="inputNumber('3')">3</button>
+    <button class="giallo" onclick="performOperation('-')">-</button><br>
+
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">cosh</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">¤</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">$</button>
+    <button class="buttoni_a_sinistra" onclick="performOperation('/')">Rand</button>
+    <button id="inter-buttone_0-2" class="inter-buttone_0" onclick="inputNumber('0')">0</button>
+    <button onclick="inputDecimal()">.</button>
+    <button class="uguale_2 giallo"  onclick="calculateResult()">=</button>
+  </div>
+
+  </div>
+
+</div>
+ <script src="script.js"></script>
+</body>
+</html>

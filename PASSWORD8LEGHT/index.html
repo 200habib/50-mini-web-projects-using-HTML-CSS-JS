@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Strength Checker</title>
+</head>
+<body>
+    <div class="container" id="container">
+    <div class="t">
+        <input type="password" id="input" placeholder="Enter your password.">
+        <img src="lock_icon.png" width="70px" alt="" id="show" class="show" > 
+        <img src="https://cdn-icons-png.flaticon.com/512/3208/3208742.png" width="60px" class="pp" alt="">
+        <img src="eye_closed_icon.png" width="65px" id="close" alt="" class="show"> </div>
+        <div class="k">
+            <p id="weakMessage" class="text weak">Weak</p>
+            <p id="mediumMessage" class="text">Medium</p>
+            <p id="strongMessage" class="text strong">Strong</p>
+            <p id="veryStrongMessage" class="text strong">Very Strong</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+:root {
+  --user:100px;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+body .contain {
+  height: 200px;
+  width: 200px;
+  border-radius: 1000px 1000px 0 0;
+  background-color: white;
+}
+
+input[type=range] {
+  margin: 20px 0;
+  width: 100%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: #03a9f4;
+  border-radius: 25px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 4px 0 rgb(0, 0, 0);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -8px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #03a9f4;
+}
+
+.range-wrap {
+  width: 200px;
+  position: relative;
+}/*# sourceMappingURL=STYLE.css.map */

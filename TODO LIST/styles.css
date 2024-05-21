@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: content-box; */
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+.container h1 {
+  color: blue;
+}
+.container button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.container button:hover {
+  background-color: #0000cc;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contain {
+  /* background-color: rgb(0, 0, 0); */
+  height: 700px;
+  width: 450px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.section_1 {
+  border-radius: 40px 40px 0 0;
+  background-image: url("https://www.ottoemezzoviaggi.it/images/offerte/home/1701785691.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30%;
+  width: 100%;
+}
+
+.huno {
+  color: white;
+  font-size: 40px;
+  margin: 0 0 0 20px;
+  font-weight: bold;
+}
+
+.section_2 {
+  background-color: rgb(255, 255, 255);
+  height: 60%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  /* height: 50%; */
+}
+
+.clicked {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.section_3 {
+  /* background-wcolor: rgb(26, 18, 18); */
+  height: 15%;
+  border-radius: 0 0 40px 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.section_3 button {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: none;
+  background-color: green;
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+}
+.section_3 input {
+  height: 100%;
+  width: 300px;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+}
+
+#clear {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  border: none;
+  background-color: red;
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */

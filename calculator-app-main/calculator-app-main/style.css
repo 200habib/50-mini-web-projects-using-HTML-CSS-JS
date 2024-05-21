@@ -1,0 +1,210 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(59, 70, 100);
+}
+
+.container {
+    /* display: none !important; */
+    border: none;
+    width: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerButton {
+    display: grid;
+    grid-template-columns: repeat(3, 25px); /* Corretto il formato del valore */
+    grid-row: 20px;
+    background-color: rgb(37, 45, 68);
+    border-radius: 200px;
+    padding: 5px;
+    padding-right: 5px;
+    width: 80px;
+}
+
+.rotate {
+    background-image: url('images/29922523-ruotare-smartphone-isolato-icona-dispositivo-rotazione-simbolo-girare-il-tuo-dispositivo-vettoriale-removebg-preview.png');
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+
+}
+
+.un {
+    grid-column: 1/2;
+}
+
+.due {
+    grid-column: 2/3;
+}
+
+.tre {
+    grid-column: 3/4;
+}
+
+
+.h {
+    background-color: antiquewhite;
+    height: 20px;
+    width: 20px;
+}
+
+.no {
+    display: none;
+}
+
+#display {
+    height: 150px;
+    width: 98%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(24, 31, 50);
+    font-size: 80px;
+    color: white;
+    text-align: right;
+    border: none;
+}
+
+.buttt {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: rgb(37, 45, 68);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+button {
+    border: none;
+    height: 65px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 40px;
+}
+
+.reset {
+    width: 45%;
+    background-color: rgb(162, 179, 225);
+    color: white;
+}
+
+.uguale {
+    width: 45%;
+    background-color: rgb(249, 108, 91);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

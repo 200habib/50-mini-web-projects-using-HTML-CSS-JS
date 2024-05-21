@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+.timer-container {
+  height: 300px;
+  width: 550px;
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.timer-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.button-start {
+  background-color: green;
+}
+
+.button-stop {
+  background-color: red;
+}
+
+.button-reset {
+  background-color: grey;
+}
+
+.timer-title {
+  font-size: 40px;
+}
+
+.timer-display {
+  font-size: 70px;
+}
+
+span {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

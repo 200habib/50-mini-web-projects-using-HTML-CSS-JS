@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added for better box-sizing handling */
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    background-image: url("https://i.pinimg.com/originals/9c/98/22/9c9822a872aadcc57e2dfb3be7866780.gif");
+    background-position: center;
+    background-size: 1700px;
+    background-repeat: no-repeat;
+
+    .container {
+        height: 500px;
+        width: 500px;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 50%;
+    }
+    
+    #button {
+        height: 90px;
+        width: 340px;
+        background-color: green;
+        cursor: pointer;
+        color: white;
+        border: none;
+        font-size: 50px;
+        border-radius: 50px;
+    }
+    
+    #title{
+        font-size: 40px;
+        text-align: center;
+    }
+}

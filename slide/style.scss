@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    // background-color: black;
+    background-image: url("https://wallpaperxyz.com/wp-content/uploads/Gif-Animated-Wallpaper-Background-Full-HD-Free-Download-for-PC-Macbook-261121-Wallpaperxyz.com-13.gif");
+    // background-color: wheat;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  }
+
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 90px;
+    width:  90px;
+  }
+
+
+  
+  .slider-container {
+    position: relative;
+    width: 1000px;
+    overflow: hidden;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  
+  .m {
+    position: absolute;
+    left: 0;
+    width: 1000px;
+    height: 700px;
+    // background-color: rgb(66, 39, 117);
+    display: grid;
+    place-items: center;
+    // background-image: url("https://ingo.it/storage/2024/03/database.jpg");
+    background-image: url("https://blog.devart.com/wp-content/uploads/2022/11/what_is_sql_server_port.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1400px,700px;
+    // display: none;
+    h1 {
+      color: rgb(221, 221, 221);
+      padding: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+      border-radius: 40px;
+      margin-top: -500px;
+      font-size: 60px;
+      font-weight: bold;
+      // background-color: rgb(9, 6, 47);
+    }
+    .image1 {
+      width: 200px;
+      height: 100px;
+    }
+  }
+
+  .f {
+    position: absolute;
+    left: 1000px;
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(200, 155, 248);
+    display: grid;
+    place-items: center;
+    // background-color: black;
+    background-image: url("https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt53b69399ef9feea5/621e12df74e1e245a3fc1a0d/main_JavaScript_enumerator_coding_lesson.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px,1000px;
+    
+      // .historie {
+      //   font-size: 60px;
+      // }
+      .f:nth-child(2) {
+        // color: rgb(255, 0, 0);
+        font-size: 100px;
+      }
+      .img3 {
+        height: 300px;
+        width: 100px;
+      }
+      h2 {
+        background-color: rgb(200, 155, 248);
+        padding: 20px;
+        margin-top: 35px;
+        border-radius: 40px;
+        font-size: 70px;
+      }
+      p {
+        background-color: rgb(131, 82, 173);
+        margin-top:270px;
+        padding: 10px;
+        padding-bottom: 45px;
+        // border-radius: 40px;
+        font-size: 27px;
+        font-weight: bold;
+        color: white;
+      }
+      div {
+        font-family: italic small-caps bold 16px/2 cursive;
+        margin: 0;
+        padding: 0;
+        margin-top: 230px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 40px;
+        background-color: rgb(67, 15, 72);
+        color: rgb(221, 221, 221);
+        font-size: 25px;
+      }
+  }
+  
+  .image-container {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .slide2 {
+    background-color: rgb(49, 16, 87);
+    display: grid;
+  place-items: center;
+  position: absolute;
+    left: 2000px;
+  width: 1000px;
+  height: 700px;
+  background-image: url("https://kinsta.com/fr/wp-content/uploads/sites/4/2023/08/ssh-into-docker-container.jpg");
+  
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1150px, 1000px;
+  
+    // h2 {
+    //   background-color: rgb(200, 155, 248);
+    //   padding: 20px;
+    //   margin-top: -2px;
+    //   border-radius: 40px;
+    //   font-size: 50px;
+    // }
+    p {
+      background-color: rgb(173, 36, 140);
+      margin-top: 485px;
+      padding: 10px;
+      padding-bottom: 40px;
+      // border-radius: 40px;
+      font-size: 30px;
+    }
+  }
+  
+
+  
+  .slide3 {
+    background-color: rgb(38, 12, 47);
+    display: grid;
+    place-items: center;
+    position: absolute;
+    left: 3000px;
+    width: 1000px;
+    height: 700px;
+    background-image: url("https://kinsta.com/it/wp-content/uploads/sites/2/2023/07/kinsta-api-key.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px, 1000px;
+
+      h2 {
+        margin-top: 25px;
+        font-size: 55px;
+        margin-left: 50px;
+        background-color: rgb(38, 12, 47);
+        font-weight: bold;
+        color: rgb(221, 221, 221);
+      }
+      p {
+        margin-top: 370px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+        border-radius: 40px;
+        background-color: rgb(56, 16, 61);
+        font-size: 28px;
+        color: rgb(221, 221, 221);
+      }
+  }
+
+
+  .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 35px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .btn.prev {
+    left: 10px;
+  }
+  
+  .btn.next {
+    right: 10px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+
+
+
+.rating {
+  display: grid;
+	place-items: center;
+  width: 1000px;
+  height: 700px;
+  background-color: black;
+  position: absolute;
+  border-radius: 40px;
+  // top: 10000000000px;
+}
+
+textarea {
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 700px;
+}
+
+button {
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid white;
+  height: 50px;
+  width: 700px;
+  color: white;
+  font-size: 30px;
+  background-color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.star-rating {
+  display: inline-block;
+  font-size: 24px;
+}
+
+.empty-stars i,
+.full-stars i {
+  color: #ccc;
+  transition: color 0.2s;
+}
+
+.full-stars {
+  overflow: hidden;
+  color: #ffc107;
+  width: 0;
+}
+
+.full-stars .highlight {
+  color: #ffdb70;
+}

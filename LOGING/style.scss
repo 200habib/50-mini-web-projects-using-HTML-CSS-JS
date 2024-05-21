@@ -1,0 +1,155 @@
+:root{
+    --black:black;
+    --white:white;
+    --password:30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--black);
+}
+
+.conteiner {
+    color: var(--white);
+    
+}
+
+.password {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    // background-color: ;
+    border-radius: 50px;
+    height: 500px;
+    width:1000px;
+    background-color: var(--white);
+
+        
+}
+
+.left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    .fac {
+        height: 50px;
+        width: 50px;
+        background-color: blue;
+        border-radius: 50px;
+    }
+
+    .xx {
+        height: 50px;
+        width: 400px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px 1px #0000006d;
+        border: none;
+        padding-left: 50px;
+        // background-color: ;
+    }
+
+    .kiestion {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .acces 
+    {
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    border: none;
+    background-color:rgb(56, 56, 217);
+    color: var(--white);
+    font-size: 25px;
+    cursor: pointer;
+    }
+    .acces:hover {
+        color: black;
+    }
+}
+
+.icon {
+    position: relative;
+   
+}
+ .profil-icon {
+    position: absolute;
+    transform: translate(7px, -50px);
+    z-index: 10;
+}
+.oo {
+    position: absolute;
+    transform: translate(7px, 65px);
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteiner {
+    opacity: 1;
+    transition: opacity 10.5s;
+    // display: none;
+  }
+  
+.active.conteiner {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
