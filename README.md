@@ -1,0 +1,1 @@
+Ce projet est une collection de 50 mini projets web que j'ai développés pour démontrer et affiner mes compétences en HTML, CSS et JavaScript. Chaque projet vise à illustrer une fonctionnalité ou un concept spécifique
